@@ -1,10 +1,15 @@
 package fr.delorme.nfa0306;
 
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.*;
+import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 public class Menu implements ActionListener {
 
@@ -27,7 +32,7 @@ public class Menu implements ActionListener {
 
 		fenetre = new JFrame();
 		fenetre.setTitle("Menu");
-		fenetre.setLocation(950, 0);t
+		fenetre.setLocation(950, 0);
 		fenetre.setResizable(false);
 		fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		jpane = new JPanel();
